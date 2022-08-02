@@ -1,13 +1,13 @@
 // Owner number
-global.owner = '212632244668'
+global.owner = '212705570169'
 // Owner name
-global.owner_name = 'M O H A M E D    B E L L A'
+global.owner_name = '𝐍𝐀𝐌𝐗'
 // Maximum upload file size limit (Default : 250 MB)
-global.max_upload = 250
+global.max_upload = 300
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
 // User Limitation (Default : 10000)
-global.limit = 10000
+global.limit = 10
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
@@ -15,19 +15,19 @@ global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
 global.blocks = ['91', '92']
 // Put target jid to forward friends story
-global.forwards = '212692516633@c.us'
+global.forwards = '212705570169@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
 global.Api = new (require('./neoxrApi'))('dKwtXX')
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
 global.chatai_bid = '164728'
 global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Footer text
-global.footer = 'B O T   BY  M O H A M E D   B E L L A'
+global.footer = '𝘽𝙤𝙢𝙞𝙧𝙤 😁'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'المرجو الانتطار . . .'),
    invalid: Func.texted('bold', 'لا وجود لهذا الرابط!'),
-   wrong: Func.texted('bold', 'حذث خطأ ما راسل مطور البوت!'),
+   wrong: Func.texted('bold', 'حدث خطأ ما راسل مطور البوت!'),
    getdata: Func.texted('bold', 'Scraping metadata . . .'),
    fail: Func.texted('bold', 'Can\'t get metadata!'),
    error: Func.texted('bold', 'Error occurred!'),
