@@ -6,7 +6,7 @@ global.owner_name = '𝐍𝐀𝐌𝐗'
 global.max_upload = 300
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
-// User Limitation (Default : 10000)
+// User Limitation (Default : 10)
 global.limit = 10
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
